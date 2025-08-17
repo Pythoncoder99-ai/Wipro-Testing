@@ -58,7 +58,7 @@ public class Lab5_SeleniumWebDriver {
         if(firstNameError.isDisplayed()) {
         	System.out.println("First Name Error Displayed: " + firstNameError.getText());
         	firstName.clear();
-        	firstName.sendKeys("Kasturi");
+        	firstName.sendKeys("Shadab");
         	}
        WebElement ContinueBtn1 = driver.findElement(By.xpath("/html/body/div[2]/div[2]/div/form/div/div/input[2]"));
        ContinueBtn1.click();
@@ -74,7 +74,7 @@ public class Lab5_SeleniumWebDriver {
         	
         	lastName.clear();
         	
-        	lastName.sendKeys("Biradar");
+        	lastName.sendKeys("Arshad");
         }
         WebElement ContinueBtn2 = driver.findElement(By.xpath("/html/body/div[2]/div/div/form/div/div/input[2]"));
         ContinueBtn2.click();
